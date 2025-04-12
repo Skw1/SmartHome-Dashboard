@@ -1,5 +1,4 @@
-
-Need ESP8266 + BME280
+ESP8266 + BME280 SmartHome Dashboard
 
 ESP8266 Code
 ```markdown
