@@ -75,7 +75,7 @@ void setup() {
     doc["pressure"] = pressure;
     doc["altitude"] = altitude; 
     doc["time"] = currentTime; 
-    doc["sensor"] = "BMP280";
+    doc["sensor"] = "BME280";
     doc["connection"] = "MQTT";
     doc["mode"] = "NORMAL";
 
