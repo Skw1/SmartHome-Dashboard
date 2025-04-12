@@ -1,6 +1,6 @@
 ESP8266 + BME280 SmartHome Dashboard
 
-ESP8266 Code
+ESP8266 Code:
 ```markdown
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
