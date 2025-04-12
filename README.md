@@ -1,7 +1,6 @@
+ESP8266 + BME280 SmartHome Dashboard
 
-Need ESP8266 + BME280
-
-ESP8266 Code
+ESP8266 Code:
 ```markdown
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
@@ -76,7 +75,7 @@ void setup() {
     doc["pressure"] = pressure;
     doc["altitude"] = altitude; 
     doc["time"] = currentTime; 
-    doc["sensor"] = "BMP280";
+    doc["sensor"] = "BME280";
     doc["connection"] = "MQTT";
     doc["mode"] = "NORMAL";
 
