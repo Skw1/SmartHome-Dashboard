@@ -1,0 +1,148 @@
+
+
+.card-item{
+    margin: 0;
+    max-width: 335px; /* ??? */
+    height: auto; /* ??? */
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 20px;
+    
+}
+
+
+.card-top{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+    padding-bottom: 20px;
+
+}
+
+.card-title{
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-main{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    
+
+}
+.card-temperature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    row-gap: 8px;
+    
+    
+
+}
+
+.temperature-data{
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 36px;
+    font-weight:500;
+    height: 43px;
+}
+
+.temperature-text{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    height: 17px;
+}
+
+.card-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 12px;
+}
+.temp-button{
+    cursor: pointer;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 6.86px;
+    background-color: #4D4D4D;
+    padding: 6px;
+}
+.icon-arrow-up{
+    fill: #fff;
+
+}
+.icon-arrow-down{
+    fill: #fff;
+    
+}
+.card-data-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+.card-data-list-item{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-data-item-title{
+    color: #fff;
+    font-family: Lato, sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+}
+    
+
+
+.sensor-data{
+    background-color: #4D4D4D;
+    border-radius: 7.36px;
+    margin: 0;
+    padding: 6px 12px;
+    text-align: center;
+    width: auto;
+    color:#fff;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    
+}
+
+.sensor-data.active {
+    background-color: #FFA500; 
+    
+  }
+  
+  .sensor-data.inactive {
+    background-color: #4D4D4D; 
+  }
+  .card-data-list.nosleep{
+    display:flex;
+  }
+  .card-data-list.sleep{
+    display: none;
+  }
+  

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="card-list">
+        <li class="card-item">
+          <div class="card-top">
+            <h3 class="card-title">Room Sensor 1</h3>
+            <label class="toggle">
+              <input type="checkbox" class="input" id="sensor-toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="card-main">
+            <div class="card-temperature">
+              <h2 class="temperature-data" id="temperature">No Data</h2>
+              <p class="temperature-text">Current temperature</p>
+            </div>
+            <div class="card-buttons">
+              <button class="temp-button">
+                <svg class="hero-arrow-icon" width="16" height="16">
+                  <use href="./src/img/icons.svg#icon-arrow-up"></use>
+                </svg>
+              </button>
+              <button class="temp-button">
+                <svg class="arrow-icon" width="16" height="16">
+                  <use href="./src/img/icons.svg#icon-arrow-down"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <ul class="card-data-list">
+            <li class="card-data-list-item">
+              <h3 class="card-data-item-title">Humidity</h3>
+              <p class="sensor-data" id="humidity">No Data</p>
+            </li>
+            <li class="card-data-list-item">
+              <h3 class="card-data-item-title">Pressure</h3>
+              <p class="sensor-data" id="pressure">No Data</p>
+            </li>
+            <li class="card-data-list-item">
+              <h3 class="card-data-item-title">Altitude</h3>
+              <p class="sensor-data" id="altitude">No Data</p>
+            </li>
+            <li class="card-data-list-item">
+              <h3 class="card-data-item-title">Time</h3>
+              <p class="sensor-data" id="time">No Data</p>
+            </li>
+            <li class="card-data-list-item">
+              <h3 class="card-data-item-title">Sensor</h3>
+              <p class="sensor-data" id="sensor">No Data</p>
+            </li>
+            <li class="card-data-list-item">
+              <h3 class="card-data-item-title">Connection</h3>
+              <p class="sensor-data" id="connection">No Data</p>
+            </li>
+            <li class="card-data-list-item">
+              <h3 class="card-data-item-title">Mode</h3>
+              <p class="sensor-data" id="mode">No Data</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <script src="./src/main.js" type="module"></script>
+  </body>
+</html>
