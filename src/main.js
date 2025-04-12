@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function fetchDataAndUpdateUI() {
       console.log('Fetching data...');
       
-      fetch('http://192.168.88.64/data') 
+      fetch('http://192.168.88.64/data') // Your ESP8266 IP (It is example)
         .then(res => {
           if (!res.ok) {
             throw new Error('Network response was not ok');
