@@ -12,7 +12,7 @@ ESP8266 Code:
 
 #define SEALEVELPRESSURE_HPA (1013.25)
 
-const char* ssid = "TOUR-WIFI-NAME";
+const char* ssid = "YOUR-WIFI-NAME";
 const char* password = "YOUR-WIFI-PASSWORD";
 
 ESP8266WebServer server(80);
