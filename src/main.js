@@ -96,6 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchDataAndUpdateUI();
   
     // Periodic fetch every 10 seconds
-    setInterval(fetchDataAndUpdateUI, 10000);
+    setInterval(fetchDataAndUpdateUI, 5000);
   });
   
